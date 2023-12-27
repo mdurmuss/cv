@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Experienced NLP Engineer and trying to become a Data Scientist.",
   summary:
-    "I have over 4 years of experience in machine learning, natural language processing. I have a strong background in Python and I am familiar with the most popular ML/DL frameworks and LLMs. I am also experienced in building and deploying and CI&CD cycle of AI models to production.",
+    "I have over four years of experience in machine learning and natural language processing, with a solid background in Python. I'm familiar with the major ML and DL frameworks, including Large Language Models. Additionally, I have hands-on experience in building, deploying, and managing the CI/CD cycle of AI models in production environments.",
   avatarUrl: "https://mdurmuss.github.io/assets/images/profile.jpg",
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
@@ -48,10 +48,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Karabuk University",
-      degree: "Bachelor's Degree in CS",
-      start: "2014",
-      end: "2019"
+      school: "Galatasaray University",
+      degree: "Master Degree in Data Science",
+      start: "2023",
+      end: "Present"
     },
     {
       school: "Karabuk University",
@@ -60,10 +60,16 @@ export const RESUME_DATA = {
       end: "2023"
     },
     {
-      school: "Galatasaray University",
-      degree: "Master Degree in Data Science",
-      start: "2023",
-      end: "Present"
+      school: "Vytautas Magnus University",
+      degree: "Erasmus+",
+      start: "2017",
+      end: "2018",
+    },
+    {
+      school: "Karabuk University",
+      degree: "Bachelor's Degree in CS. Thesis:A Neural Image Caption Generator",
+      start: "2014",
+      end: "2019"
     }
 
   ],
@@ -77,7 +83,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "Present",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL"
+        "I lead the NLP team at Albert Health. We are building a conversational AI platform for healthcare. I am responsible for the development of the NLP pipeline, including intent classification, entity extraction, and conversational AI. I also lead development of the CI/CD pipeline for the NLP models. Currently working on LLMS and Retrieval Augmented Generation."
     },
     {
       company: "Hummingdrone",
@@ -87,22 +93,21 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2019",
       end: "2021",
-      description: "I am in Robotics Development Team. The team deeply focus on making data-driven drones, using approaches like: Machine Learning, Computer Vision, Visual SLAM, Amazon Web Services and open source robotics technologies.",
-      techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC"
-      ]
+      description: "I am in Robotics Development Team. The team deeply focus on making data-driven drones, using approaches like: Machine Learning, Computer Vision, Visual SLAM, Amazon Web Services and open source robotics technologies."
 
     }
   ],
   skills: [
-    "Python",
+    "Machine Learning",
+    "Natural Language Processing",
+    "Data Science",
+    "LLMs",
+    "Retrieval Augmented Generation",
+    "Conversational AI",
+    "CI/CD",
     "Docker",
-    "Jenkins"
+    "Jenkins",
+    "AWS/GCP"
   ],
   projects: [
     {
