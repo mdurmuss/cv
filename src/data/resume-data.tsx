@@ -32,6 +32,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
     email: "mustafa-durmuss@outlook.com",
+    tel: "+90 535 000 00 00",
     social: [
       {
         name: "GitHub",
