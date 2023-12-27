@@ -27,12 +27,11 @@ export const RESUME_DATA = {
   about:
     "Experienced NLP Engineer and trying to become a Data Scientist.",
   summary:
-    "I am a AI Engineer with 3 years of experience in NLP and 1 year of experience in Data Science. I have a strong background in Python and I am familiar with the most popular ML/DL frameworks. I am also experienced in building and deploying ML/DL models to production.",
+    "I have over 4 years of experience in machine learning, natural language processing. I have a strong background in Python and I am familiar with the most popular ML/DL frameworks and LLMs. I am also experienced in building and deploying and CI&CD cycle of AI models to production.",
   avatarUrl: "https://mdurmuss.github.io/assets/images/profile.jpg",
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
     email: "mustafa-durmuss@outlook.com",
-    tel: "+48530213401",
     social: [
       {
         name: "GitHub",
@@ -63,7 +62,7 @@ export const RESUME_DATA = {
       school: "Galatasaray University",
       degree: "Master Degree in Data Science",
       start: "2023",
-      end: "2025"
+      end: "Present"
     }
 
   ],
@@ -75,7 +74,7 @@ export const RESUME_DATA = {
       title: "NLP Engineer",
       logo: ParabolLogo,
       start: "2019",
-      end: "2024",
+      end: "Present",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL"
     },
