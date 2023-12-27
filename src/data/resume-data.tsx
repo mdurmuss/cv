@@ -87,7 +87,16 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2019",
       end: "2021",
-      description: "Worked on a project for Hummingdrone. Technologies: Python, ROS, OpenCV"
+      description: "I am in Robotics Development Team. The team deeply focus on making data-driven drones, using approaches like: Machine Learning, Computer Vision, Visual SLAM, Amazon Web Services and open source robotics technologies.",
+      techStack: [
+        "Side Project",
+        "TypeScript",
+        "Next.js",
+        "Vite",
+        "GraphQL",
+        "WebRTC"
+      ]
+
     }
   ],
   skills: [
