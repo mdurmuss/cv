@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Istanbul, Turkey",
   locationLink: "https://www.google.com/maps/place/Istanbul",
   about:
-    "Experienced NLP Engineer and trying to become a Data Scientist.",
+    "Experienced NLP Engineer and Junior Data Scientist.",
   summary:
     "I have over four years of experience in machine learning and natural language processing, with a solid background in Python. I'm familiar with the major ML and DL frameworks, including Large Language Models. Additionally, I have hands-on experience in building, deploying, and managing the CI/CD cycle of AI models in production environments.",
   avatarUrl: "https://mdurmuss.github.io/assets/images/profile.jpg",
@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Karabuk University",
-      degree: "Master Degree in CS",
+      degree: "Master Degree in NLP",
       start: "2020",
       end: "2023"
     },
@@ -80,10 +80,10 @@ export const RESUME_DATA = {
       badges: ["Hybrid"],
       title: "NLP Engineer",
       logo: ParabolLogo,
-      start: "2019",
+      start: "2020",
       end: "Present",
       description:
-        "I lead the NLP team at Albert Health. We are building a conversational AI platform for healthcare. I am responsible for the development of the NLP pipeline, including intent classification, entity extraction, and conversational AI. I also lead development of the CI/CD pipeline for the NLP models. Currently working on LLMS and Retrieval Augmented Generation."
+        "I lead the NLP team at Albert Health, where we are developing a conversational AI platform for healthcare. My responsibilities include overseeing the development of the NLP pipeline, which encompasses intent classification and entity extraction within the conversational AI platform. Additionally, I am in charge of developing the CI/CD pipeline for our AI models. Currently, I am working on LLMs, RAG and prompt engineering."
     },
     {
       company: "Hummingdrone",
@@ -92,7 +92,7 @@ export const RESUME_DATA = {
       title: "Robotics Developer",
       logo: NSNLogo,
       start: "2019",
-      end: "2021",
+      end: "2020",
       description: "I am in Robotics Development Team. The team deeply focus on making data-driven drones, using approaches like: Machine Learning, Computer Vision, Visual SLAM, Amazon Web Services and open source robotics technologies."
 
     }
