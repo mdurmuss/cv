@@ -111,20 +111,20 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Word Predictor",
       techStack: [
         "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC"
+        "Python",
+        "Flask",
+        "Heroku",
+        "Ngrams",
+        "NLP",
+        "Spell Check"
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: "This project aims to predict the words that may come after the input using n-gram techniques.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/"
+        label: "https://github.com/mdurmuss/word-predictor/",
+        href: "https://github.com/mdurmuss/word-predictor/"
       }
     }
   ]
