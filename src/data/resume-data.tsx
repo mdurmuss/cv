@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       school: "Vytautas Magnus University",
       degree: "Erasmus+",
       start: "2017",
-      end: "2018",
+      end: "2018"
     },
     {
       school: "Karabuk University",
@@ -113,7 +113,6 @@ export const RESUME_DATA = {
     {
       title: "Word Predictor",
       techStack: [
-        "Side Project",
         "Python",
         "Flask",
         "Heroku",
@@ -126,6 +125,21 @@ export const RESUME_DATA = {
         label: "https://github.com/mdurmuss/word-predictor/",
         href: "https://github.com/mdurmuss/word-predictor/"
       }
+
+    },
+    {
+      title: "Data Augmentation",
+      techStack: [
+        "Jupyter Notebook",
+        "Data Augmentation",
+        "NLP"
+      ],
+      description: "Data augmentation techs for natural language processing on Turkish language.",
+      link: {
+        label: "https://github.com/mdurmuss/nlp-data-augmentation",
+        href: "https://github.com/mdurmuss/nlp-data-augmentation"
+      }
+
     }
   ]
 } as const;
