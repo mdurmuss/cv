@@ -111,14 +111,29 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Diabetes GPT",
+      techStack: [
+        "LLMs",
+        "RAG",
+        "Python",
+        "Streamlit",
+        "Docker",
+      ],
+      description: "This project aims to help people with diabetes to find answers to their questions in conversational ai platform.",
+      link: {
+        label: "https://diyabet.albert.health/",
+        href: "https://diyabet.albert.health/"
+      }
+
+    },
+    {
       title: "Word Predictor",
       techStack: [
+        "NLP",
+        "n-grams",
         "Python",
         "Flask",
-        "Heroku",
-        "Ngrams",
-        "NLP",
-        "Spell Check"
+        "Heroku"
       ],
       description: "This project aims to predict the words that may come after the input using n-gram techniques.",
       link: {
