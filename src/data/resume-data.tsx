@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Istanbul, Turkey",
   locationLink: "https://www.google.com/maps/place/Istanbul",
   about:
-    "Experienced NLP Engineer and Junior Data Scientist.",
+    "NLP Engineer and Junior Data Scientist.",
   summary:
     "I have over four years of experience in machine learning and natural language processing, with a solid background in Python. I'm familiar with the major ML and DL frameworks, including Large Language Models. Additionally, I have hands-on experience in building, deploying, and managing the CI/CD cycle of AI models in production environments.",
   avatarUrl: "https://mdurmuss.github.io/assets/images/profile.jpg",
@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Karabuk University",
-      degree: "Master Degree in NLP",
+      degree: "Master Degree in CS. Thesis:Implementation of NLP techniques into Turkish healthcare data.",
       start: "2020",
       end: "2023"
     },
