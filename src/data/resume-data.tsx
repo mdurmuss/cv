@@ -23,7 +23,6 @@ export const RESUME_DATA = {
   name: "Mustafa Durmuş",
   initials: "MD",
   location: "Istanbul, Turkey",
-  tel: "+90 555 555 55 55",
   locationLink: "https://www.google.com/maps/place/Istanbul",
   about:
     "Data Scientist.",
@@ -34,6 +33,7 @@ export const RESUME_DATA = {
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
     email: "mustafa-durmuss@outlook.com",
+    tel: "+90 000 000 00 00",
     social: [
       {
         name: "GitHub",
