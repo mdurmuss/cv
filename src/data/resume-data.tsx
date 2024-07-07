@@ -25,14 +25,14 @@ export const RESUME_DATA = {
   location: "Istanbul, Turkey",
   locationLink: "https://www.google.com/maps/place/Istanbul",
   about:
-    "NLP Engineer and Junior Data Scientist.",
+    "Data Scientist.",
   summary:
-    "I have over four years of experience in machine learning and natural language processing, with a solid background in Python. I'm familiar with the major ML and DL frameworks, including Large Language Models. Additionally, I have hands-on experience in building, deploying, and managing the CI/CD cycle of AI models in production environments.",
+    "I have over 5 years of experience in machine learning, natural language processing and data engineering with a solid background in Python. I'm familiar with the major ML and DL frameworks, including state of the art Large Language Models." +
+    "Additionally, I have hands-on experience in building, deploying, and managing the CI/CD cycle of AI models in production environments.",
   avatarUrl: "https://mdurmuss.github.io/assets/images/profile.jpg",
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
     email: "mustafa-durmuss@outlook.com",
-    tel: "+90 535 000 00 00",
     social: [
       {
         name: "GitHub",
@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     },
     {
       school: "Karabuk University",
-      degree: "Master Degree in CS. Thesis:Implementation of NLP techniques into Turkish healthcare data.",
+      degree: "Master Degree in CS. Thesis: Implementing Named Entity Extraction techniques into Turkish healthcare data like prostate cancer reports.",
       start: "2020",
       end: "2023"
     },
@@ -87,7 +87,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Hummingdrone",
-      link: "https://www.nokia.com",
+      link: "https://hummingdrone.co/",
       badges: [],
       title: "Robotics Developer",
       logo: NSNLogo,
