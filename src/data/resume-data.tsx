@@ -23,6 +23,7 @@ export const RESUME_DATA = {
   name: "Mustafa Durmuş",
   initials: "MD",
   location: "Istanbul, Turkey",
+  tel: "+90 555 555 55 55",
   locationLink: "https://www.google.com/maps/place/Istanbul",
   about:
     "Data Scientist.",
