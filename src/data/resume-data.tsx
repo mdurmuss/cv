@@ -18,6 +18,7 @@ import Minimal from "../images/logos/minimal.svg";
 import { GitHubIcon } from "../components/icons/GitHubIcon";
 import { LinkedInIcon } from "../components/icons/LinkedInIcon";
 import { XIcon } from "../components/icons/XIcon";
+import { AccessibilityIcon, ActivityIcon, BatteryMediumIcon, BookAIcon } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Mustafa Durmuş",
@@ -25,10 +26,9 @@ export const RESUME_DATA = {
   location: "Istanbul, Turkey",
   locationLink: "https://www.google.com/maps/place/Istanbul",
   about:
-    "Data Scientist.",
+    "Data Scientist and NLP Engineer dedicated to developing innovative AI solutions.",
   summary:
-    "I have over 5 years of experience in machine learning, natural language processing and data engineering with a solid background in Python. I'm familiar with the major ML and DL frameworks, including state of the art Large Language Models." +
-    "Additionally, I have hands-on experience in building, deploying, and managing the CI/CD cycle of AI models in production environments.",
+    "I am a data scientist with over 5 years of experience specializing in natural language processing (NLP). In the past 2 years, I have also focused on data science, enhancing my skill set and expertise. I have a strong background in Python programming and am proficient with major ML and DL frameworks, including Large Language Models (LLMs). I am dedicated to continuing my growth in data science, applying my knowledge to solve practical problems, and working on projects involving cutting-edge technologies and cloud-based ETL techniques.",
   avatarUrl: "https://mdurmuss.github.io/assets/images/profile.jpg",
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
@@ -44,31 +44,30 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/mustafadurmuss/",
         icon: LinkedInIcon
+      },
+      {
+        name: "Medium",
+        url: "https://medium.com/@mustafadurmus",
+        icon: BookAIcon
       }
     ]
   },
   education: [
     {
       school: "Galatasaray University",
-      degree: "Master Degree in Data Science",
+      degree: "Master Degree in Data Science. Courses: Probability and Statistics, Data Lakes and Data Engineering, Machine Learning and LLMs",
       start: "2023",
       end: "Present"
     },
     {
       school: "Karabuk University",
-      degree: "Master Degree in CS. Thesis: Implementing Named Entity Extraction techniques into Turkish healthcare data like prostate cancer reports.",
+      degree: "Master Degree in CS. Courses: Machine Learning, NLP, Graph Theory, Data Mining",
       start: "2020",
       end: "2023"
     },
     {
-      school: "Vytautas Magnus University",
-      degree: "Erasmus+",
-      start: "2017",
-      end: "2018"
-    },
-    {
       school: "Karabuk University",
-      degree: "Bachelor's Degree in CS. Thesis:A Neural Image Caption Generator",
+      degree: "Bachelor's Degree in Computer Science. Thesis:A Neural Image Caption Generator",
       start: "2014",
       end: "2019"
     }
@@ -84,12 +83,12 @@ export const RESUME_DATA = {
       start: "2020",
       end: "Present",
       description:
-        "I lead the NLP team at Albert Health, where we are developing a conversational AI platform for healthcare. My responsibilities include overseeing the development of the NLP pipeline, which encompasses intent classification and entity extraction within the conversational AI platform. Additionally, I am in charge of developing the CI/CD pipeline for our AI models. Currently, I am working on LLMs, RAG and prompt engineering."
+        "I lead the AI team at Albert Health, where we are developing a conversational AI platform for healthcare. My responsibilities include overseeing the development of AI and NLP pipelines, including intent classification and entity extraction. I also manage the CI/CD pipeline for our AI models. Currently, I am working on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), prompt engineering, and optimizing data pipelines."
     },
     {
       company: "Hummingdrone",
       link: "https://hummingdrone.co/",
-      badges: [],
+      badges: ["Hybrid"],
       title: "Robotics Developer",
       logo: NSNLogo,
       start: "2019",
@@ -103,12 +102,13 @@ export const RESUME_DATA = {
     "Natural Language Processing",
     "Data Science",
     "LLMs",
-    "Retrieval Augmented Generation",
+    "RAG",
     "Conversational AI",
     "CI/CD",
     "Docker",
     "Jenkins",
-    "AWS/GCP"
+    "AWS",
+    "GCP"
   ],
   projects: [
     {
@@ -118,7 +118,7 @@ export const RESUME_DATA = {
         "RAG",
         "Python",
         "Streamlit",
-        "Docker",
+        "Docker"
       ],
       description: "This project aims to help people with diabetes to find answers to their questions in conversational ai platform.",
       link: {
@@ -126,6 +126,32 @@ export const RESUME_DATA = {
         href: "https://diyabet.albert.health/"
       }
 
+    },
+    {
+      title: "Vector Databases and RAG",
+      techStack: [
+        "Mongo DB",
+        "Langchain",
+        "OpenAI"
+      ],
+      description: "This project aims to store the vectors of the documents in the database and use them in RAG model.",
+      link: {
+        label: "https://github.com/mdurmuss/nlp-data-augmentation",
+        href: "https://medium.com/albert-health/k%C3%BC%C3%A7%C3%BCk-prensi-anlamak-mongodb-vekt%C3%B6r-veritabanlar%C4%B1-ve-rag-kullan%C4%B1m%C4%B1-8d0c93c4674a"
+      }
+    },
+    {
+      title: "Principal Component Analysis",
+      techStack: [
+        "Python",
+        "Sklearn",
+        "Jupyter Notebook"
+      ],
+      description: "Introduction to PCA and its implementation in Python.",
+      link: {
+        label: "https://github.com/mdurmuss/nlp-data-augmentation",
+        href: "https://medium.com/@mustafadurmus/temel-bile%C5%9Fen-analizi-pca-teoriden-uygulamaya-edb8fe84921a"
+      }
     },
     {
       title: "Word Predictor",
@@ -155,7 +181,7 @@ export const RESUME_DATA = {
         label: "https://github.com/mdurmuss/nlp-data-augmentation",
         href: "https://github.com/mdurmuss/nlp-data-augmentation"
       }
-
     }
+
   ]
 } as const;
