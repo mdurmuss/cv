@@ -154,6 +154,16 @@ export const RESUME_DATA = {
       }
     },
     {
+      title: "Kolmogorov-Arnold Networks",
+      techStack: ["Medium"],
+      description: "Explanation of Kolmogorov-Arnold networks.",
+      link: {
+        label: "https://medium.com/@mustafadurmus/kolmogorov-arnold-ağlarına-giriş-101-7410aa73595b",
+        href: "https://medium.com/@mustafadurmus/kolmogorov-arnold-ağlarına-giriş-101-7410aa73595b"
+      }
+    },
+
+    {
       title: "Word Predictor",
       techStack: [
         "NLP",
