@@ -75,13 +75,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Nesine",
+      link: "https://www.nesine.com/",
+      badges: ["Remote"],
+      title: "Senior Data Scientis",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "Present",
+      description:
+        "I build, validate, and maintain AI models using machine learning and deep learning techniques on large datasets. I collaborate with data engineers and backend engineers to ensure the successful implementation of projects from end to end."
+    },
+    {
       company: "Albert Health",
       link: "https://albert.health/",
       badges: ["Hybrid"],
       title: "NLP Engineer",
       logo: ParabolLogo,
       start: "2020",
-      end: "Present",
+      end: "2024",
       description:
         "I lead the AI team at Albert Health, where we are developing a conversational AI platform for healthcare. My responsibilities include overseeing the development of AI and NLP pipelines, including intent classification and entity extraction. I also manage the CI/CD pipeline for our AI models. Currently, I am working on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), prompt engineering, and optimizing data pipelines."
     },
