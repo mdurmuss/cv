@@ -78,7 +78,7 @@ export const RESUME_DATA = {
       company: "Nesine",
       link: "https://www.nesine.com/",
       badges: ["Remote"],
-      title: "Senior Data Scientis",
+      title: "Senior Data Scientist",
       logo: ParabolLogo,
       start: "2024",
       end: "Present",
