@@ -117,7 +117,6 @@ export const RESUME_DATA = {
     "RAG",
     "CI/CD",
     "Docker",
-    "Jenkins",
     "Cloud Platforms"
   ],
   projects: [
