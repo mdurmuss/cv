@@ -109,17 +109,16 @@ export const RESUME_DATA = {
     }
   ],
   skills: [
-    "Machine Learning",
-    "Natural Language Processing",
+    "ML",
+    "NLP",
     "Data Science",
+    "Conversational AI",
     "LLMs",
     "RAG",
-    "Conversational AI",
     "CI/CD",
     "Docker",
     "Jenkins",
-    "AWS",
-    "GCP"
+    "Cloud Platforms"
   ],
   projects: [
     {
