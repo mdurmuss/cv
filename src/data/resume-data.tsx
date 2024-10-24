@@ -104,7 +104,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "2019",
       end: "2020",
-      description: "I am in Robotics Development Team. The team deeply focus on making data-driven drones, using approaches like: Machine Learning, Computer Vision, Visual SLAM, Amazon Web Services and open source robotics technologies."
+      description: "I was a member of the Robotics Development Team, where we focused on creating data-driven drones using approaches such as Machine Learning, Computer Vision, Visual SLAM, Amazon Web Services, and open-source robotics technologies."
 
     }
   ],
