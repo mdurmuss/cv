@@ -115,7 +115,6 @@ export const RESUME_DATA = {
     "Conversational AI",
     "LLMs",
     "RAG",
-    "CI/CD",
     "Docker",
     "Cloud Platforms"
   ],
