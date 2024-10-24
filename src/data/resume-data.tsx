@@ -29,7 +29,7 @@ export const RESUME_DATA = {
     "Data Scientist dedicated to developing innovative AI solutions.",
   summary:
     "I am a data scientist with over 5 years of experience specializing in natural language processing (NLP). In the past 2 years, I have also focused on data science, enhancing my skill set and expertise. I have a strong background in Python programming and am proficient with major ML and DL frameworks, including Large Language Models (LLMs). I am dedicated to continuing my growth in data science, applying my knowledge to solve practical problems, and working on projects involving cutting-edge technologies and cloud-based ETL techniques.",
-  avatarUrl: "https://mdurmuss.github.io/assets/images/profile.jpg",
+  avatarUrl: "https://avatars.githubusercontent.com/u/13923389?v=4",
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
     email: "mustafa-durmuss@outlook.com",
