@@ -94,7 +94,7 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2024",
       description:
-        "I lead the AI team at Albert Health, where we are developing a conversational AI platform for healthcare. My responsibilities include overseeing the development of AI and NLP pipelines, including intent classification and entity extraction. I also manage the CI/CD pipeline for our AI models. Currently, I am working on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), prompt engineering, and optimizing data pipelines."
+        "I led the AI team at Albert Health, where we developed a conversational AI platform for healthcare. My responsibilities included overseeing the development of AI and NLP pipelines, including intent classification and entity extraction. I also managed the CI/CD pipeline for our AI models. Additionally, I worked on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), prompt engineering, and optimizing data pipelines."
     },
     {
       company: "Hummingdrone",
