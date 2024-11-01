@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       badges: ["Remote"],
       title: "Senior Data Scientist",
       logo: ParabolLogo,
-      start: "2024",
+      start: "2024 Sep",
       end: "Present",
       description:
         "I build, validate, and maintain AI models using machine learning and deep learning techniques on large datasets. I collaborate with data engineers and backend engineers to ensure the successful implementation of projects from end to end."
@@ -89,12 +89,23 @@ export const RESUME_DATA = {
       company: "Albert Health",
       link: "https://albert.health/",
       badges: ["Hybrid"],
+      title: "Senior AI & Data Analytics Engineer",
+      logo: ParabolLogo,
+      start: "2024 June",
+      end: "2024 Sep",
+      description:
+        "I led the AI team at Albert Health, where we developed a conversational AI platform for healthcare. Additionally, I worked on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), prompt engineering, and optimizing data pipelines."
+    },
+    {
+      company: "Albert Health",
+      link: "https://albert.health/",
+      badges: ["Hybrid"],
       title: "NLP Engineer",
       logo: ParabolLogo,
-      start: "2020",
-      end: "2024",
+      start: "2020 Dec",
+      end: "2024 June",
       description:
-        "I led the AI team at Albert Health, where we developed a conversational AI platform for healthcare. My responsibilities included overseeing the development of AI and NLP pipelines, including intent classification and entity extraction. I also managed the CI/CD pipeline for our AI models. Additionally, I worked on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), prompt engineering, and optimizing data pipelines."
+        "My responsibilities included overseeing the development of AI and NLP pipelines, including intent classification and entity extraction. I also managed the CI/CD pipeline for our AI models."
     },
     {
       company: "Hummingdrone",
@@ -102,8 +113,8 @@ export const RESUME_DATA = {
       badges: ["Hybrid"],
       title: "Robotics Developer",
       logo: NSNLogo,
-      start: "2019",
-      end: "2020",
+      start: "2019 Jun",
+      end: "2020 Dec",
       description: "I was a member of the Robotics Development Team, where we focused on creating data-driven drones using approaches such as Machine Learning, Computer Vision, Visual SLAM, Amazon Web Services, and open-source robotics technologies."
 
     }
