@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       badges: ["Hybrid"],
       title: "Senior AI & Data Analytics Engineer",
       logo: ParabolLogo,
-      start: "June 2024",
+      start: "Jun 2024",
       end: "Sep 2024",
       description:
         "I led the AI team at Albert Health, where we developed a conversational AI platform for healthcare. Additionally, I worked on Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), prompt engineering, and optimizing data pipelines."
@@ -103,7 +103,7 @@ export const RESUME_DATA = {
       title: "NLP Engineer",
       logo: ParabolLogo,
       start: "Dec 2020",
-      end: "June 2024",
+      end: "Jun 2024",
       description:
         "My responsibilities included overseeing the development of AI and NLP pipelines, including intent classification and entity extraction. I also managed the CI/CD pipeline for our AI models."
     },
