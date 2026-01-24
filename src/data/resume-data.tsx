@@ -57,7 +57,7 @@ export const RESUME_DATA = {
       school: "Galatasaray University",
       degree: "Master Degree in Data Science. Courses: Probability and Statistics, Data Lakes and Data Engineering, Machine Learning and LLMs",
       start: "2023",
-      end: "Present"
+      end: "2025"
     },
     {
       school: "Karabuk University",
@@ -77,7 +77,7 @@ export const RESUME_DATA = {
     {
       company: "Nesine",
       link: "https://www.nesine.com/",
-      badges: ["Remote"],
+      badges: ["Remote", "Hybrid"],
       title: "Senior Data Scientist",
       logo: ParabolLogo,
       start: "Sep 2024",
@@ -119,6 +119,44 @@ export const RESUME_DATA = {
 
     }
   ],
+  researchPapers: [
+    {
+      title: "The Use of Conversational Agents in Self-Management: A Retrospective Analysis",
+      href: "https://www.medrxiv.org/content/10.1101/2024.09.01.24312881v1",
+      year: 2024,
+      description: "A retrospective look at conversational agent usage patterns in a mobile health setting."
+    },
+    {
+      title: "A rule-based named entity recognition of SNOMED Clinical Terms in Turkish clinical reports",
+      href: "https://www.researchgate.net/publication/393145558_A_rule-based_named_entity_recognition_of_SNOMED_Clinical_Terms_in_Turkish_clinical_reports",
+      year: 2022,
+      description: "A rule-based NER approach for mapping Turkish clinical text to SNOMED codes."
+    },
+    {
+      title: "User Engagement with A Multimodal Conversational Agent for Self-Care and Chronic Disease Management: A Retrospective Analysis",
+      href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12148993/",
+      year: 2025,
+      description: "Retrospective analysis of ~24,500 users examining voice vs. screen interaction and engagement predictors."
+    },
+    {
+      title: "Exploring vocal biomarkers as non-invasive fine-tuning assays of cardiovascular health: heart failure model",
+      href: "https://www.researchgate.net/publication/385314628_Exploring_vocal_biomarkers_as_non-invasive_fine-tuning_assays_of_cardiovascular_health_heart_failure_model",
+      year: 2024,
+      description: "Investigation of vocal features as biomarkers for cardiovascular health."
+    },
+    {
+      title: "Conversational agent engagement patterns among individuals with MS: A retrospective analysis of the mHealth application",
+      href: "https://www.researchgate.net/publication/394845794_EPO--781_Conversational_agent_engagement_patterns_among_individuals_with_MS_A_retrospective_analysis_of_the_mHealth_application",
+      year: 2024,
+      description: "Analysis of conversational agent engagement patterns in multiple sclerosis users."
+    },
+    {
+      title: "Descriptive analysis of conversational agent usage characteristics in an asthma app",
+      href: "https://publications.ersnet.org/content/erj/62/suppl67/pa1581",
+      year: 2023,
+      description: "Usage characteristics of a conversational agent deployed in an asthma self-management app."
+    }
+  ],
   skills: [
     "ML",
     "NLP",
@@ -130,22 +168,6 @@ export const RESUME_DATA = {
     "Cloud Platforms"
   ],
   projects: [
-    {
-      title: "Diabetes GPT",
-      techStack: [
-        "LLMs",
-        "RAG",
-        "Python",
-        "Streamlit",
-        "Docker"
-      ],
-      description: "This project aims to help people with diabetes to find answers to their questions in conversational ai platform.",
-      link: {
-        label: "https://diyabet.albert.health/",
-        href: "https://diyabet.albert.health/"
-      }
-
-    },
     {
       title: "Vector Databases and RAG",
       techStack: [
@@ -180,37 +202,6 @@ export const RESUME_DATA = {
         label: "https://medium.com/@mustafadurmus/kolmogorov-arnold-ağlarına-giriş-101-7410aa73595b",
         href: "https://medium.com/@mustafadurmus/kolmogorov-arnold-ağlarına-giriş-101-7410aa73595b"
       }
-    },
-
-    {
-      title: "Word Predictor",
-      techStack: [
-        "NLP",
-        "n-grams",
-        "Python",
-        "Flask",
-        "Heroku"
-      ],
-      description: "This project aims to predict the words that may come after the input using n-gram techniques.",
-      link: {
-        label: "https://github.com/mdurmuss/word-predictor/",
-        href: "https://github.com/mdurmuss/word-predictor/"
-      }
-
-    },
-    {
-      title: "Data Augmentation",
-      techStack: [
-        "Jupyter Notebook",
-        "Data Augmentation",
-        "NLP"
-      ],
-      description: "Data augmentation techs for natural language processing on Turkish language.",
-      link: {
-        label: "https://github.com/mdurmuss/nlp-data-augmentation",
-        href: "https://github.com/mdurmuss/nlp-data-augmentation"
-      }
     }
-
   ]
 } as const;

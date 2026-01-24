@@ -45,18 +45,7 @@ export default function Page() {
                   <a href={`mailto:${RESUME_DATA.contact.email}`}>
                     <MailIcon className="h-4 w-4" />
                   </a>
-                </Button>
-              ) : null}
-              {RESUME_DATA.contact.tel ? (
-                <Button
-                  className="h-8 w-8"
-                  variant="outline"
-                  size="icon"
-                  asChild
-                >
-                  <a href={`tel:${RESUME_DATA.contact.tel}`}>
-                    <PhoneIcon className="h-4 w-4" />
-                  </a>
+                {/* Skills section removed per user request */}
                 </Button>
               ) : null}
               {RESUME_DATA.contact.social.map((social) => (
@@ -99,6 +88,15 @@ export default function Page() {
           </p>
         </Section>
         <Section>
+          <h2 className="text-xl font-bold">Skills</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+        </Section>
+
+        <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -123,6 +121,7 @@ export default function Page() {
                       </span>
                     </h3>
                     <div className="text-sm tabular-nums text-gray-500">
+        
                       {work.start} - {work.end}
                     </div>
                   </div>
@@ -158,14 +157,6 @@ export default function Page() {
             );
           })}
         </Section>
-        <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
-        </Section>
 
         <Section className="print-force-new-page scroll-mb-16">
           <h2 className="text-xl font-bold">Projects</h2>
@@ -181,6 +172,38 @@ export default function Page() {
                 />
               );
             })}
+          </div>
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Research</h2>
+          <div className="flex flex-col gap-3">
+            {RESUME_DATA.researchPapers
+              .slice()
+              .sort((a, b) => (b.year || 0) - (a.year || 0))
+              .map((paper) => (
+                <Card key={paper.title}>
+                  <CardHeader>
+                      <div className="flex items-center justify-between gap-x-2">
+                        <a
+                          href={paper.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="font-semibold text-sm hover:underline"
+                        >
+                          {paper.title}
+                        </a>
+                        <span className="text-xs tabular-nums text-muted-foreground">
+                          {paper.year}
+                        </span>
+                      </div>
+                    </CardHeader>
+                    {paper.description ? (
+                      <CardContent className="text-xs text-muted-foreground">
+                        {paper.description}
+                      </CardContent>
+                    ) : null}
+                </Card>
+              ))}
           </div>
         </Section>
       </section>
