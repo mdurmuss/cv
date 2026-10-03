@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "Data Scientist dedicated to developing innovative AI solutions.",
   summary:
-    "I am a data scientist with over 5 years of experience specializing in natural language processing (NLP). In the past 2 years, I have also focused on data science, enhancing my skill set and expertise. I have a strong background in Python programming and am proficient with major ML and DL frameworks, including Large Language Models (LLMs). I am dedicated to continuing my growth in data science, applying my knowledge to solve practical problems, and working on projects involving cutting-edge technologies and cloud-based ETL techniques.",
+    "I'm a Senior Data Scientist with 6+ years of experience building production NLP and LLM systems. At Nesine, I designed and built a multi-model customer support chatbot from scratch, combining LLMs, BERT classifiers, and rule-based flows. Before that, I led the AI team at Albert Health, where we built a conversational AI platform for healthcare and published research on how people use chatbots in digital health. I focus on systems that work reliably in production: fast, measurable, and cost-efficient.",
   avatarUrl: "https://avatars.githubusercontent.com/u/13923389?v=4",
   personalWebsiteUrl: "https://mdurmuss.github.io/",
   contact: {
@@ -77,13 +77,13 @@ export const RESUME_DATA = {
     {
       company: "Nesine",
       link: "https://www.nesine.com/",
-      badges: ["Remote", "Hybrid"],
+      badges: ["Hybrid"],
       title: "Senior Data Scientist",
       logo: ParabolLogo,
       start: "Sep 2024",
       end: "Present",
       description:
-        "I build, validate, and maintain AI models using machine learning and deep learning techniques on large datasets. I collaborate with data engineers and backend engineers to ensure the successful implementation of projects from end to end."
+        "Designed and built Nesine's customer support chatbot end to end: a multi-model architecture combining a Qwen-based intent classifier, Rasa rule-based flows, a BERT known-issue classifier, and an OpenAI-powered help bot. Currently optimizing response time before launch. Also responsible for building, validating, and maintaining ML models on large datasets with data and backend engineers."
     },
     {
       company: "Albert Health",
