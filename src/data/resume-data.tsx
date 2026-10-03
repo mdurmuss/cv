@@ -83,7 +83,7 @@ export const RESUME_DATA = {
       start: "Sep 2024",
       end: "Present",
       description:
-        "Designed and built Nesine's customer support chatbot end to end: a multi-model architecture combining a Qwen-based intent classifier, Rasa rule-based flows, a BERT known-issue classifier, and an OpenAI-powered help bot. Currently optimizing response time before launch. Also responsible for building, validating, and maintaining ML models on large datasets with data and backend engineers."
+        "Designed and built Nesine's customer support chatbot end to end: a multi-model architecture combining a Qwen-based intent classifier, Rasa rule-based flows, a BERT classifier, and  LLM-powered help bot. Also responsible for building, validating, and maintaining ML models on large datasets with data and backend engineers."
     },
     {
       company: "Albert Health",
